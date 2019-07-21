@@ -11,7 +11,7 @@ import cl.ejeldes.notes.model.Note
 /**
  * Created by ejeldes on Jul 20, 2019
  */
-class NotesRecyclerAdapter(val myNotes: Array<Note>) : RecyclerView.Adapter<NotesRecyclerAdapter.ViewHolder>() {
+class NotesRecyclerAdapter(val myNotes: List<Note>) : RecyclerView.Adapter<NotesRecyclerAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder =
         ViewHolder(
